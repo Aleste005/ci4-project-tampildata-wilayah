@@ -23,7 +23,7 @@
 </head>
 <body class="container py-4">
 
-    <h2 class="text-center mb-5">CONTOH MENAMPILKAN DATA PADA CI4 - DAN PHP 8.3</h2>
+    <h2 class="text-center mb-5">CONTOH MENAMPILKAN DATA PADA CI4 - GAYA CI3</h2>
 
     <!-- Daftar Kecamatan -->
     <div class="mb-4">
@@ -36,12 +36,14 @@
                 </tr>
             </thead>
             <tbody>
-                <?php $no = 1; foreach ($kecamatan as $kec): ?>
+                <?php 
+                $no = 1; 
+                foreach ($kecamatan as $row): ?>
                     <tr>
-                        <td><?= $no++ ?></td>
-                        <td><?= esc($kec['nama_kecamatan']) ?></td>
+                        <td><?= $no++; ?></td>
+                        <td><?= $row['nama_kecamatan']; ?></td>
                     </tr>
-                <?php endforeach ?>
+                <?php endforeach; ?>
             </tbody>
         </table>
     </div>
@@ -57,12 +59,14 @@
                 </tr>
             </thead>
             <tbody>
-                <?php $no = 1; foreach ($desa as $d): ?>
+                <?php 
+                $no = 1; 
+                foreach ($desa as $row): ?>
                     <tr>
-                        <td><?= $no++ ?></td>
-                        <td><?= esc($d['nama_desa']) ?></td>
+                        <td><?= $no++; ?></td>
+                        <td><?= $row['nama_desa']; ?></td>
                     </tr>
-                <?php endforeach ?>
+                <?php endforeach; ?>
             </tbody>
         </table>
     </div>
