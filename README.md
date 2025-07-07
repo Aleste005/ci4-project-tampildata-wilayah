@@ -2,7 +2,7 @@
 
 **Dikonsepkan oleh**: Almuhajir, Este  
 **Versi PHP**: 8.3  
-**Framework**: CodeIgniter 4.x
+**Framework**: CodeIgniter version  v4.6.1.
 
 ---
 
