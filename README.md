@@ -1,6 +1,6 @@
 # 🗺️ Helpdesk Wilayah - CodeIgniter 4 (Gaya CI3)
 
-**Dikonsepkan oleh**: Almuhajir, Este  
+**Author**: Almuhajir, Este  
 **Versi PHP**: 8.3  
 **Framework**: CodeIgniter version  v4.6.1.
 
