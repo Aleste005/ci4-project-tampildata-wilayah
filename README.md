@@ -24,7 +24,7 @@ Aplikasi ini menampilkan data **kecamatan** dan **desa** dari database MySQL, co
 - Fungsi dan variabel menggunakan **Bahasa Indonesia** (agar mudah dipahami oleh pemula)
 
 ---
-![Tampilan Aplikasi](https://raw.githubusercontent.com/Aleste005/ci4-project-tampildata-wilayah/main/image.png)
+
 
 ## 💾 Kebutuhan Server
 
@@ -37,6 +37,9 @@ Aplikasi ini menampilkan data **kecamatan** dan **desa** dari database MySQL, co
   - `curl`
 
 ---
+
+<h3>🖼️ Tampilan Aplikasi</h3>
+![Tampilan Aplikasi](https://raw.githubusercontent.com/Aleste005/ci4-project-tampildata-wilayah/main/image.png)
 
 ## 🗃️ Struktur Database
 
