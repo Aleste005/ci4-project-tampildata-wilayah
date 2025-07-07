@@ -8,7 +8,7 @@
 
 ## 📌 Tentang Aplikasi
 
-Ini adalah contoh project sederhana menggunakan **CodeIgniter 4 (CI4)** dengan pendekatan manual ala **CodeIgniter 3 (CI3)**.  
+Ini adalah contoh project sederhana menggunakan **CodeIgniter 4 (CI4)** dengan pendekatan  ala **CodeIgniter 3 (CI3)**.  
 Aplikasi ini menampilkan data **kecamatan** dan **desa** dari database MySQL, cocok untuk keperluan **pembelajaran** dan **pengembangan awal** sistem informasi wilayah (helpdesk daerah, administratif desa, dsb).
 
 ---
@@ -16,7 +16,7 @@ Aplikasi ini menampilkan data **kecamatan** dan **desa** dari database MySQL, co
 ## 🧱 Fitur Utama
 
 - Menggunakan struktur **MVC (Model - View - Controller)**
-- Query SQL manual seperti gaya CI3 (`SELECT * FROM ...`)
+- Query SQL seperti gaya CI3 (`SELECT * FROM ...`)
 - Routing sederhana menggunakan `$routes->get()` (mirip CI3)
 - Tampilan responsive menggunakan **Bootstrap 5**
 - Menampilkan data dari 2 tabel: `kecamatan` dan `desa`
@@ -67,4 +67,7 @@ CREATE TABLE desa (
     kecamatan_id INT,
     FOREIGN KEY (kecamatan_id) REFERENCES kecamatan(id)
 );
+
+
+Tunggu Update Terbaru Ya.....Syukran 
 
