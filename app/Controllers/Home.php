@@ -17,7 +17,7 @@ class Home extends BaseController
         $kecamatanModel = new KecamatanModel();
         $desaModel = new DesaModel();
 
-        // Pakai fungsi manual dari model ini konsep saya ringkas dengan ci3 
+        // Pakai fungsi dari model ini konsep saya ringkas dengan ci3 
         $data['kecamatan'] = $kecamatanModel->getSemuadataKecamatan();
         $data['desa'] = $desaModel->getSemuadataDesa();
 
