@@ -68,11 +68,6 @@ CREATE TABLE desa (
     FOREIGN KEY (kecamatan_id) REFERENCES kecamatan(id)
 );
 
-## 🖼️ Tampilan Aplikasi
-
-Berikut ini contoh tampilan aplikasi yang dibuat:
-
-![Tampilan Aplikasi](https://raw.githubusercontent.com/Aleste005/ci4-project-tampildata-wilayah/main/image.png)
 
 Tunggu Update Terbaru Ya.....Syukran 
-
+![Tampilan Aplikasi](https://raw.githubusercontent.com/Aleste005/ci4-project-tampildata-wilayah/main/image.png)
